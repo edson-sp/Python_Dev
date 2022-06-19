@@ -1,0 +1,5 @@
+FRON ubuntu;15.10
+COPY Untitled-1.py /usr/share/nginx/html/Untitled-1.py  
+RUN apt-get -y update
+RUN apt-get -y install net-tools
+RUN apt-get -y install iputils-ping
